@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
-<body>
-var graph = Viva.Graph.graph();
-graph.addLink(1, 2);
-
-var renderer = Viva.Graph.View.renderer(graph);
-renderer.run();
-</body>
+    <head>
+        <title>VivaGraphs test page</title>
+        <script src="../dist/vivagraph.js"></script>
+        <script type='text/javascript'>
+            
+            function onLoad() {
+                var g = Viva.Graph.graph();
+            }
+            
+        </script>
+    </head>
+    <body onload="onLoad()">
+        
+    </body>
 </html>
